@@ -11,6 +11,18 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#blog{
+  text-decoration: none;
+  color: white;
+  /* flex-grow: 4; */
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
@@ -114,7 +126,7 @@ body {
 .line {
   height: 2px;
   background: white;
-  width: 100%;
+  width: 30%;
 }
 
 .title2 {
