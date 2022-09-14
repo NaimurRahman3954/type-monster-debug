@@ -26,15 +26,48 @@
          </div>
       </div>
 
+      <!-- QnA Section -->
+      <section class="box-container blog">
+         <div class="card">
+            <h3>What is the difference between local storage and session storage?</h3>
+            <p>
+               The read-only sessionStorage property accesses a session Storage object for the current origin. sessionStorage is similar to localStorage; the difference is that while data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends. 
+               Find out more from <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">MDN</a>.
+            </p>
+         </div>
+         <div class="card">
+            <h3>What is the difference between global scope and block scope?</h3>
+            <p>
+               The scope is the current context of execution in which values and expressions are "visible" or can be referenced. If a variable or expression is not in the current scope, it will not be available for use. Scopes can also be layered in a hierarchy, so that child scopes have access to parent scopes, but not vice versa. Find out more from <a href="https://developer.mozilla.org/en-US/docs/Glossary/Scope">MDN</a>.
+            </p>
+         </div>
+         <div class="card">
+            <h3>How does JavaScript event loop work?</h3>
+            <p>
+               JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.               Find out more from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop">MDN</a>.
+            </p>
+         </div>
+         <div class="card">
+            <h3>How many ways do we get undefined?</h3>
+            <p> undefined is a property of the global object. That is, it is a variable in global scope. The initial value of undefined is the primitive value undefined.
+               In all non-legacy browsers, undefined is a non-configurable, non-writable property. (Even when this is not the case, avoid overriding it.)
+               A variable that has not been assigned a value is of type undefined. A method or statement also returns undefined if the variable that is being evaluated does not have an assigned value. A function returns undefined if a value was not returned.
+               Find out more from <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined">MDN</a>.
+            </p>
+         </div>
+      </section>
+
+
       
-      
-      <!-- blog button -->
+      <!-- home page button -->
       <div class="buttons">
          <a href="./index.html">
          <button id="start">Visit Home Page</button>
          </a>
       </div>
 
+
+      <!-- External Script -->
       <script src="./history.js"></script>
       <script src="./script.js"></script>
    </body>
